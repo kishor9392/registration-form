@@ -102,11 +102,11 @@ class RegistrationForm extends Component {
                 </div>
 
                 <div className="label">
-                  <label htmlFor="first" className="lab">
+                  <label htmlFor="second" className="lab">
                     LAST NAME
                   </label>
                   <input
-                    id="first"
+                    id="second"
                     className={`input ${d}`}
                     value={second}
                     onChange={this.onSecond}
